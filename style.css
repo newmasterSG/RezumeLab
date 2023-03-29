@@ -3,7 +3,6 @@ h1 {
     margin-left: 255px;
     text-align: center;
   }
-
   .summary{
     padding: 7px;
     margin-left: 255px;
@@ -19,7 +18,7 @@ h1 {
   margin-right: 80.4%;
 }
 
-.side{
+.live{
   margin-left: 275px;
 }
 
@@ -36,14 +35,13 @@ h1 {
   .line{
     border-left: 1px solid black;
     height: 1100px;
-    position: absolute;
+    position: fixed;
     left: 20%;
     margin-left: -3px;
     top: 0;
   }
 
 .photo img{
-    position: absolute;
     top: 25px;
     left: 25px;
     border-width: 1px thin;
@@ -62,11 +60,6 @@ h1 {
   border: 2px solid black;
   margin-right: 67%;
   background-color: rgb(0, 0, 0);
-}
-
-.contacts p {
-    position: absolute;
-    left: 100px;
 }
 
 h4{
